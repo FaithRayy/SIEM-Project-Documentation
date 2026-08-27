@@ -9,24 +9,24 @@
 	5. Under "Installing Wazuh", copy the following command to clipboard
 	6. Setting the Firefox window aside, open Terminal
 	7. Elevate permissions:
-		 **`sudo bash`**
+		  **`sudo bash`**
 	8. paste command from clipboard onto Terminal and run
-		1. When download is complete, a User and password will be given.
+		 When download is complete, a User and password will be given.
 	9.  Copy the IP of Ubuntu machine:
-		(Run **`ip a`** in a separate terminal to find IP address)
+		 (Run **`ip a`** in a separate terminal to find IP address)
 	10. Paste IP address into the search box of a new Firefox window and a Wazuh login should appear.
 	11. Copy the corresponding User and password given from the original Terminal into the Wazuh log into dashboard.
 3. Setting up new Windows agent
 	1. From Ubuntu VM:
 		1. Select "Deploy new agent"
 		2. Select the package to download and install on your system: 
-			1. Select the checkbox under Windows (MIS 32/64 bits)
+			 Select the checkbox under Windows (MIS 32/64 bits)
 		3. Server address:
 			1. Paste the address of the Wazuh server (The same address that's being displayed in the Firefox search box)
 			2. Select "Remember server address", for the sake of future agents
 		4. Optional settings:
 			1. Assign a unique name for the agent.
-				Example: WindowsHost1
+				 Example: WindowsHost1
 		5. Copy the command
 	2. From Windows machine:
 		1. Open Windows PowerShell as administrator
@@ -72,7 +72,12 @@ Test again from Windows Powershell:
 
 The Wazuh dashboard now displays an active connection with the Windows agent.
 
-Somme important Commands:
-**`sudo nano /var/ossec/etc/ossec.conf`**
-**`sudo systemctl restart wazuh-manager`**
-**`sudo systemctl status wazuh-manager`**
+Some important Commands:
+- Open the main configuration file for Wazuh:
+	**`sudo nano /var/ossec/etc/ossec.conf`**
+
+- Restart wazuh manager service
+	**`sudo systemctl restart wazuh-manager`**
+
+- Check wazuh manager status
+	**`sudo systemctl status wazuh-manager`**
