@@ -1,3 +1,4 @@
+# Wazuh Documentation
 ##### Setting up
 1. Start up Ubuntu VM to use as server to run as central components for Wazuh.
 2. From Ubuntu VM:
