@@ -76,8 +76,8 @@ Some important Commands:
 - Open the main configuration file for Wazuh:
 	**`sudo nano /var/ossec/etc/ossec.conf`**
 
-- Restart wazuh manager service
+- Restart wazuh manager service:
 	**`sudo systemctl restart wazuh-manager`**
 
-- Check wazuh manager status
+- Check wazuh manager status:
 	**`sudo systemctl status wazuh-manager`**
