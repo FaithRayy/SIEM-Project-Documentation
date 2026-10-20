@@ -14,4 +14,5 @@ The architecture consists of three primary components:
 - Wazuh Dashboard - Provides visualization, alert investigation, vulnerability analysis, compliance monitoring, and MITRE ATT&CK analysis.
 
 ### Architecture Diagram
-![576](Wazuh_Architecture%203.png)
+
+<img width="1364" height="1044" alt="Wazuh_Architecture" src="https://github.com/user-attachments/assets/3142789b-ba40-4e69-bc42-8bd8dd918819" />
